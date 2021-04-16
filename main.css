@@ -1,0 +1,28 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;;
+}
+
+#googleimg {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+}
+
+.inputcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
