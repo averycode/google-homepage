@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
     color: black;
 }
 
@@ -42,8 +42,12 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid darkcyan;
+    border: 1px solid #dfe1e5;
     border-radius: 50px;
+}
+
+.span_search {
+    color:#9aa0a6;
 }
 
 input {
@@ -57,14 +61,17 @@ input:focus {
 
 span {
     padding: 10px;
-    color: darkcyan;
+    color: #5f6368;
 }
 
 a {
     padding: 10px;
     margin: 5px;
     text-decoration: none;
-    color: black;
+    color: rgba(0,0,0,0.87);
+}
+a:hover {
+    text-decoration: underline;
 }
 
 nav {
@@ -91,4 +98,14 @@ nav {
     flex-direction: column;
     align-items: center;
     padding: 15px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    background: #f2f2f2;
+    position: absolute;
+    bottom: 0px;
+    padding: 15px;
+    width: 98%;
 }
